@@ -1,13 +1,125 @@
-body {
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+        url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+}
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color:black;
+}
+html body{
+    margin:0 10px;
+    padding:0;
+    background-image: url(/images/muti_colorimages.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+
+.main-header {
+    background-color: rgba(0, 0, 0 .6);
+    background-image: url("images/blue_city.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+    text-align: center;
+
+    
+}
+
+.nav ul{
+    margin:0px;
+
+}
+/*========= makes li/a elements line side by side ============*/
+
+.nav li{
+    display:inline-block;
+    
+}
+
+.nav a{
+    display: inline-block;
+    padding: 2em;
+    color: rgb(255, 153, 0);
+    text-shadow: 0px 1px 4px #23430C;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgba(17, 126, 84, 0.5);
+}
+.title{
+    font-size: 5em;
+    color: rgb(255, 153, 0);
+    margin-top: 0%;
+    padding-top: 30px;
+    
+}
+
+/* ====== body =========*/
+
+h2.job-title{
+    font-family: "Metal Mania";
+    font-weight: normal;
+    font-size: 2.5em;
+    color:white;
+    text-align: center;
+}
+
+.job_image{
+    height: 350px;
+    width: 350px;
+    margin: 15px;
+    border-radius: 50%; 
+}
+
+.img_frog_stork{
+    border-radius: 30%; 
+}
+
+.content-section {
+    margin: 2em;
+}
+
+.container {
+    max-width: 1000px;
+    /* stop growing*/
+    margin: auto;
+    padding: 0 10em;
+
+}
+
+article {
+   
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*body {
     background: #504c4c;
 }
-html { 
-}
-#container{
-    width: 90%;
-    margin:auto;
+
+body{
+    width: 95%;
+    margin:0;
     padding:2%;
-    border:  solid  rgb(110, 15, 122) 5px;
     background: url(images/pexels-hristo-fidanov-1252869.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -40,11 +152,24 @@ p{
 }
 .header_main {
     text-align: center;
+    position: fixed;   /* Set to fixed position */
+    top: 0;             /* Position the at the top of the page */
+    width: 100%;        /* Full width 
+    background-color: blue;
+    padding-bottom: 2em;
 }
 
+nav{
+    background-color: blue;
+   
+}
 .nav_top{
+    position: fixed;   /* Set to fixed position 
+    width: 95%;     
     text-align: center;
-     padding-bottom:20px;
+    margin-top: 1em;
+    padding:  2em 0em;
+   
 }
 .nav_ul{
     list-style: none;
@@ -71,7 +196,7 @@ a:link {
 }
 
 a:visited {
-    color: rgb(228, 177, 235);
+    color:crimson;
     background-color: transparent;
     text-decoration: none;
 }
@@ -125,4 +250,4 @@ padding-top: 100px;
 .p_footer{
     text-align: center;
     font-size:13px;
-}
+}*/
