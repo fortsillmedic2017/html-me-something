@@ -104,14 +104,6 @@ article {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
 /*body {
     background: #504c4c;
 }
@@ -121,22 +113,28 @@ body{
     margin:0;
     padding:2%;
     background: url(images/pexels-hristo-fidanov-1252869.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-   color:rgb(223, 223, 231);
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+   background-size: cover;
+   color:rgb(223, 223, 231);   
 }
 
-
-h1{
-color: #f2f608;
-
+.top{
+    font-size: 50px;
+    width: auto;
+    padding-top: 28px;
+    padding-bottom: 41px;
+    text-align: center;
+    color:whitesmoke;
+    background:blue;
+    position:sticky;
+    top: 10px;
 }
 
 .start_sentence {
 text-align: center;
 color: #f2f608;
+margin-top: 200px;
 
 }
 
@@ -147,9 +145,6 @@ h2{
     padding-bottom: 20px;
 }
 
-p{
-    font-size: 18px;
-}
 .header_main {
     text-align: center;
     position: fixed;   /* Set to fixed position */
@@ -163,6 +158,7 @@ nav{
     background-color: blue;
    
 }
+
 .nav_top{
     position: fixed;   /* Set to fixed position 
     width: 95%;     
@@ -177,18 +173,15 @@ nav{
     padding:0;
 }
 .nav_ul li {
+    list-style: none;
+    margin:10px;
+    padding: 16px;
     display: inline;
-    margin:3%;
 }
 .nav_ul a{
     display:inline-block
 }
 
-hr.style {
-       height: 12px;
-    border: 0;
-    box-shadow: inset 0 12px 12px -12px rgb(110, 15, 122);
-}
 a:link {
     color: yellow;
     background-color: transparent;
@@ -202,7 +195,7 @@ a:visited {
 }
 
 a:hover {
-    color: yellow;
+    color: blue;
     background-color: transparent;
     text-decoration: underline;
 }
@@ -212,6 +205,9 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+   hr{margin-top: 50px;
+       size: 100px;
+   }
 
 article{
     margin: 50px;
@@ -219,6 +215,7 @@ article{
 }
 
 p {
+    font-size: 18px;
     margin-left: 50px;
     margin-right: 50px;
     padding-top: 40px;
@@ -251,3 +248,4 @@ padding-top: 100px;
     text-align: center;
     font-size:13px;
 }*/
+
